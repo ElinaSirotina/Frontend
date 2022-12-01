@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.container{
+    background-color: greenyellow;
+    width: 800px;
+    height: 800px;
+   position: relative;
+   border-radius: 1500px;
+   
+   
+    
+}
+.container-up{
+    display: inline-block;
+        margin-top: 100px;
+        margin-left: 160px;
+}
+
+.child1,.child2{
+    border-radius: 100px;
+}
+
+.child1,.child2,.child3{
+    
+    background-color: bisque;
+    width: 150px;
+    height: 150px;
+    
+}
+.child3{
+
+    margin-top: 100px;
+    margin-left: 320px;
+
+   
+}
+.child4{
+    background-color: bisque;
+    width: 400px;
+    height: 35px;
+    margin-top: 100px;
+    margin-left: 200px;
+}

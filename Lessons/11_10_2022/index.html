@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Lesson 6</title>
+</head>
+<body>
+    <div class="testbox">
+        <form action="#">
+            <header>
+                <h1>Tour Booking Form</h1>
+            </header>
+            <div class="item">
+                <p>Name</p>
+                <div class="name-item">
+                    <input type="text" name="Fname" placeholder="First Name">
+                    <input type="text" name="Lname" placeholder="Last Name">
+                </div>
+            </div>
+            <div class="item">
+                <p>Email</p>
+                <input type="email" name="email" placeholder="name@mail.ru">
+            </div>
+            <div class="item">
+                <p>Phone</p>
+                <input type="phone" name="phone" placeholder="### ### ####">
+            </div>
+            <div class="item">
+                <p>When are you planning to vizit?</p>
+                <input type="date" name="vizitdate">
+            </div>
+            <div class="item">
+                <p>How many people are in your group?</p>
+                <input type="number" name="count">
+            </div>
+            <div class="item">
+                <p>Which tour are you most interested in?</p>
+                <select name="tours">
+                    <option value="">*Please select*</option>
+                    <option value="usa">USA</option>
+                    <option value="europe">Europe</option>
+                    <option value="uae">UAE</option>
+                    <option value="maldives">Maldives</option>
+                </select>
+            </div>
+            <div class="question">
+                <p>What is the best way to contact you?</p>
+                <div>
+                    <input type="checkbox" id="checkbox_1" name="contact">
+                    <label for="checkbox_1"> Phone </label>
+                </div>
+                <div>
+                    <input type="checkbox" id="checkbox_2" name="contact">
+                    <label for="checkbox_2"> Email </label>
+                </div>
+                <div>
+                    <input type="checkbox" id="checkbox_3" name="contact">
+                    <label for="checkbox_3"> Either </label>
+                </div>
+            </div>
+            <div class="question">
+                <p>If phone, when is the best time of day for a call-back?</p>
+                <div>
+                    <input type="radio" id="radio_1" name="time">
+                    <label for="radio_1"> 8 - 11 AM </label>
+                </div>
+                <div>
+                    <input type="radio" id="radio_2" name="time">
+                    <label for="radio_2"> 12 - 4 PM </label>
+                </div>
+                <div>
+                    <input type="radio" id="radio_3" name="time">
+                    <label for="radio_3"> 6 - 10 PM </label>
+                </div>
+            </div>
+            <div class="item">
+                <p>Anything else we should konw?</p>
+                <textarea name="text"></textarea>
+            </div>
+            <div class="button">
+                <button type="submit">Send</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

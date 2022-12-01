@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.block{
+    border: 5px solid red;
+    width: 600px;
+    height: 1500px;
+    margin: 0 auto;
+   
+}
+.block_1{
+    background-color: aqua;
+    /* position: relative;
+    z-index: 1; */
+}
+.block_2{
+    background-color: blue;
+    /* position: absolute; */
+    /* left: 50px;
+    top: 60px; */
+   /*Добавление свойств left, top, right и bottom изменяет позицию элемента и сдвигает его в ту или иную сторону от первоначального расположения
+  */
+  /* bottom: 50px;
+  right: 60px; */
+  /* right: 20px;
+  bottom: 30px; */
+  /* top: 30px;
+  left: 20px;
+  width: 100%; */
+  /* position: fixed;
+  width: 100%;
+  left: 20;
+  top: 20; */
+  /* Элемент якобы вырывается из кода и зависает в воздухе. Фиксируется, то есть не скролится вместе с содержимым. Он перестает влиять на остальные элементы. Добавление свойств left, top, right и bottom изменяет позицию элемента и сдвигает его в ту или иную сторону относительно окна браузера.
+ */
+ position: sticky;
+ top: 0;
+}
+.block_3{
+    background-color: blueviolet;
+   
+    /* Каждый элемент может находиться как ниже, так и выше других объектов веб-страницы, их размещением по z-оси и управляет z-index.
+ */
+}
+.block_4{
+    background-color: cornflowerblue;
+    position: sticky;
+    bottom: 0
+}
+.block div{
+    font-size: 18px;
+    text-align: center;
+    line-height: 50px;
+}

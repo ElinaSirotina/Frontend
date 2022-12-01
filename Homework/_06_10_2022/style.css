@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(206, 242, 243);
+}
+h1{
+    color: red;
+    font-size: 25px;
+    font-family: "Arial";
+    line-height: 1.5em;
+}
+img{
+    border-radius: 7px;
+}
+.first{
+    color: gray;
+    font-size: 1.9em;
+}
+.div1{
+    background-color: bisque;
+    border: 3px solid rgb(255,0,255);
+}
+.div2{
+    border: 3px solid rgb(129, 138, 139);
+    width: 450px;
+    padding: 20px;
+    margin: 20px;
+    letter-spacing: 1px;
+    background-color: rgb(231, 234, 220);
+    display: inline-block;
+
+}
+.hr1{
+    border: none;
+    background-color: greenyellow;
+}
+#p1{
+    color: brown;
+    font-size: 18px;
+}
+.div2:hover{
+    background-color: rgb(198, 203, 181);
+}

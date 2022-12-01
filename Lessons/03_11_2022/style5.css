@@ -1,0 +1,34 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.container{
+    background-color: greenyellow;
+    width: 800px;
+    height: 700px;
+   position: relative;
+   
+   
+    
+}
+
+.child1,.child2{
+    background-color: bisque;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    
+    
+}
+.child1{
+    margin: 30px;
+    top: 60px;
+    left: 60px;
+}
+.child2{
+    right: 60px;
+    bottom: 60px;
+    margin: 30px;
+}

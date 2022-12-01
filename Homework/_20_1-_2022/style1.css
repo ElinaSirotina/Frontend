@@ -1,0 +1,51 @@
+.main_div{
+    justify-content: center;
+    display: flex;
+}
+h1{
+    letter-spacing: 2px;
+}
+.f1 p input{
+    margin-left: 150px;
+    width: 200px;
+}
+label{
+    text-align: right;
+    clear: both;
+    float:left;
+    margin-right:15px;
+}
+.inp{
+    display: block;
+}
+.f2 p input{
+    margin-left: 150px;
+    width: 200px;
+}
+.f2 p select{
+    margin-left: 110px;
+    width: 205px;
+}
+.f2 .big label{
+    text-align: left;
+}
+.f2 p textarea{
+    margin-left: 50px;
+    
+}
+
+.fdiv{
+    display: inline;
+    
+    
+}
+
+#fd{
+    margin-left: 50px;
+    width: 50px;
+}
+
+button{
+    padding: 10px;
+}
+

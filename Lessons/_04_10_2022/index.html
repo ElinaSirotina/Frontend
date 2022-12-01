@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="parent">
+        Обычный текст - font-size:16px;
+        <div style="font-size: 20px;">Задан font-size: 20px;
+        <div style="font-size: 17.5px;">Задан font-size: 17.5px;
+            <div>Наследует font-size: 17.5px ;</div>
+            <div style="font-size:14.7px;">font-size:14.7px</div>
+            <div style="font-size: 1em;"><font-size:1></font-size:1>em; 1*16=16px</div>
+            <br>
+            <div class="parent">
+             Обычный текст - font-size:16px;
+             <div style="font-size: 1em;">font-size:1em; 1*16=16px
+             <div style="font-size: 1.51em;">font-size 1.5em; 1.5*16=24px
+                 <div>Наследует font-size: 1.5em - 24px;</div>
+                 <div style="font-size: 1.51em;"> font-size 1.5em</div>
+             </div>
+             </div>
+            </div>
+         
+            <br>
+            <div class="parent">
+             Обычный текст - font-size:16px;
+             <div style="font-size: 1rem;">font-size:1rem; 1*16=16px
+             <div style="font-size: 1.5rem;">font-size 1.5rem; 1.5*16=24px
+                 <div>Наследует font-size: 1.5rem - 24px;</div>
+                 <div style="font-size: 1.5rem;"> font-size 1.5rem</div>
+             </div>
+             </div>
+            </div>
+         
+        
+        
+        </div>
+    
+        </div>
+       </div>
+       <ul>
+        <li>First level</li>
+        <li>First level
+            <ul>
+                <li>Third level</li>
+           </ul>
+        </li>
+       </ul>
+        
+
+ </div>
+ </div>
+ <!-- <div class="box1">
+
+
+</div>
+<div class="box2">
+
+
+</div> -->
+
+</body>
+</html>

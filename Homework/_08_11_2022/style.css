@@ -1,0 +1,135 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #000205;
+}
+
+.search-btn {
+    background-image: url(../images/search-icon.png);
+    background-size: 22px;
+    background-repeat: no-repeat;
+    background-position-y: 7px;
+    width: 35px;
+    height: 35px;
+    padding: 0;
+    border: none;
+}
+.container-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    height: 200px;
+    
+    min-height: 800px;
+}
+.fixed {
+    flex: 0 0 50%;
+    justify-content: left;
+    display: flex;
+    
+}
+.img-div{
+  display: flex;
+  justify-content: center;
+}
+.img-div img{
+  width: 550px;
+  height: 300px;
+  margin-top: 50px;
+}
+.rubbery {
+    flex: 1 1 50%;
+    justify-content: right;
+    display: flex;
+    margin-right: 50px;
+
+}
+.rubbery h1{
+  padding-top: -5px;
+  margin-bottom: 70px;
+}
+
+.i1{
+  width: 450px;
+  margin-right: 5px;
+  margin-bottom:30px;
+  border: none;
+  border-bottom: 1px solid black;
+  font-size: 16px;
+}
+.i2{
+  width: 450px;
+  margin-right: 5px;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid black;
+  font-size: 16px;
+}
+.i3{
+  width: 450px;
+  margin-right: 5px;
+  margin-bottom: 80px;
+  border: none;
+  border-bottom: 1px solid black;
+  font-size: 16px;
+}
+.i4{
+  width: 450px;
+  margin-right: 5px;
+  margin-bottom: 40px;
+  border: none;
+  border-bottom: 1px solid black;
+  font-size: 16px;
+}
+
+.btn{
+  margin-top: 50px;
+  padding: 12px 40px;
+  border-radius: 100px;
+  border: none;
+  background: rgb(255, 230, 0);
+  color: white;
+  font-size: 16px;
+}
+.navbar-brand{
+  color: rgb(255, 230, 0);
+  text-decoration: none;
+  font-size: 32px;
+  font-weight: 750;
+  margin-left: 10px;
+  
+}
+.container-fluid{
+  padding-top: 15px;
+}
+
+ul li a{
+  text-decoration: none;
+  color: rgb(255, 230, 0);
+  font-size: 18px;
+  font-weight: normal;
+}
+ul{
+  list-style: none;
+}
+ul li{
+  display: inline;
+  margin-left: 25px;
+  
+
+}
+.navbar-brand{
+  display: inline-block;
+}
+.navbar-nav{
+  position: absolute;
+  right: 0px;
+  top: 0;
+  display: inline-block;
+}
+.container-main{
+  margin-top: 150px;
+}
+
+  
+  

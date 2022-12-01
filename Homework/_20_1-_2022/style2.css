@@ -1,0 +1,43 @@
+h1{
+    font-weight: 200;
+}
+
+.name-inp{
+    width: 99%;
+}
+
+.name-inp1{
+    margin-top: 7px;
+    width: 99%;
+}
+
+.email-inp{
+    width: 99%;
+}
+
+.data-inp{
+    width: 99%;
+}
+
+#select-item{
+    width: 99%;
+}
+
+textarea {
+	resize: horizontal;
+	width: 99%;
+	height: 100px;
+}
+
+.button-div{
+   text-align: center;
+}
+
+button{
+    color: white;
+    background-color: rgb(32, 97, 236);
+    margin-top: 50px;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 5px;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <title>homework1</title>
+</head>
+<body>
+    <div class="main_div">
+    <form>
+        <h1>Форма заявки на работу в зоопарке</h1>
+        <i>Пожалуйста, заполните форму. Обязательные поля помечены<font color="red">*</font></i>
+        <p>
+            <fieldset class="f1">
+                <legend>Контактная информация</legend>
+                <p>
+                <label> Имя<font color="red">*</font></label>
+                <input type="text" class="inp">
+                </p>
+                <p>
+                <label> Телефон </label>
+                <input type="text" class="inp">
+                </p>
+                <p>
+                <label> Email<font color="red">*</font> </label>
+                <input type="email" class="inp">
+                </p>
+                
+            </fieldset>
+        </p>
+        <p>
+            <fieldset class="f2">
+                <legend>Персональная информация</legend>
+                <p>
+                    <label> Возраст<font color="red">*</font></label>
+                    <input type="text" class="inp">
+                </p>
+                <p>
+                    <label for="">Пол</label>
+                    <select>
+                        <option value="">Мужчина</option>
+                        <option value="">Женщина</option>
+                    </select>
+                </p>
+                <p class="big">
+                    <label  for="">Перечислите <br> личные <br> качества</label>
+                    <textarea name="" id="" cols="25" rows="5"></textarea>
+                </p>
+            </fieldset>
+        </p>
+        <p>
+            <fieldset class="f3">
+                <legend>Выберите ваших любимых животных</legend>
+                <p>
+                   <div class="fdiv" >
+                    <input type="checkbox" name="happy" value="yes">зебра
+                   </div>
+                   <div class="fdiv" id="fd">
+                    <input type="checkbox" name="happy" value="yes">кошка
+                   </div>
+                   <div class="fdiv" id="fd">
+                    <input type="checkbox" name="happy" value="yes">анаконда
+                   </div>
+                   <div class="fdiv" id="fd">
+                    <input type="checkbox" name="happy" value="yes">человек
+                   </div>
+                </p>
+                <p>
+                    <div class="fdiv" >
+                        <input type="checkbox" name="happy" value="yes">слон 
+                       </div>
+                       <div class="fdiv" id="fd">
+                        <input type="checkbox" name="happy" value="yes">антилопа
+                       </div>
+                       <div class="fdiv" id="fd">
+                        <input type="checkbox" name="happy" value="yes">голубь
+                       </div>
+                       <div class="fdiv" id="fd">
+                        <input type="checkbox" name="happy" value="yes">краб
+                       </div>
+                </p>
+            </fieldset>
+            
+        </p>
+        <p>
+            <button type="submit">Отправить информацию</button>
+        </p>
+
+    </form>
+    </div>
+</body>
+</html>

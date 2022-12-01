@@ -1,0 +1,201 @@
+Задача1
+
+#pond {
+  display: flex;
+justify-content: right;
+}
+
+Задача2
+
+#pond {
+  display: flex;
+justify-content:center; 
+}
+
+Задача3
+
+#pond {
+  display: flex;
+justify-content: space-around;
+}
+
+Задача4
+
+#pond {
+  display: flex;
+justify-content: space-between;
+}
+
+Задача5
+
+#pond {
+  display: flex;
+align-items: flex-end;
+}
+
+Задача6
+
+#pond {
+  display: flex;
+align-items: center;
+justify-content: center;
+}
+
+Задача7
+
+#pond {
+  display: flex;
+align-items: flex-end;
+justify-content: space-around;
+}
+
+Задача8
+
+#pond {
+  display: flex;
+flex-direction: row-reverse;
+}
+
+Задача9
+
+#pond {
+  display: flex;
+flex-direction: column;
+}
+
+Задача10
+
+#pond {
+  display: flex;
+flex-direction: row-reverse;
+justify-content: flex-end;
+}
+
+Задача11
+
+#pond {
+  display: flex;
+flex-direction: column;
+justify-content: flex-end;
+}
+
+Задача12
+
+#pond {
+  display: flex;
+flex-direction: column-reverse;
+justify-content: space-between;
+}
+
+Задача13
+
+#pond {
+  display: flex;
+flex-direction: row-reverse;
+justify-content: center;
+align-items: flex-end;
+}
+
+
+Задача14
+
+#pond {
+  display: flex;
+}
+
+.yellow {
+order: 1;
+}
+
+Задача15
+
+#pond {
+  display: flex;
+}
+
+.red {
+order: -1;
+}
+
+Задача16
+
+#pond {
+  display: flex;
+  align-items: flex-start;
+}
+
+.yellow {
+align-self: flex-end;
+}
+
+Задача17
+
+#pond {
+  display: flex;
+  align-items: flex-start;
+}
+
+.yellow {
+order: 1;
+align-self: flex-end;
+}
+
+Задача18
+
+#pond {
+  display: flex;
+flex-wrap: wrap;
+}
+
+
+Задача19
+
+#pond {
+  display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+}
+
+Задача20
+
+#pond {
+  display: flex;
+flex-flow:column wrap;
+}
+
+Задача21
+
+#pond {
+  display: flex;
+  flex-wrap: wrap;
+align-content: flex-start;
+}
+
+Задача22
+
+#pond {
+  display: flex;
+  flex-wrap: wrap;
+align-content: flex-end;
+}
+
+
+Задача23
+
+#pond {
+  display: flex;
+  flex-wrap: wrap;
+flex-direction: column-reverse;
+align-content: center;
+}
+
+Задача24
+
+#pond {
+  display: flex;
+flex-direction: column-reverse;
+flex-wrap: wrap-reverse;
+justify-content: center;
+align-items: flex-end;
+align-content: space-between;
+}

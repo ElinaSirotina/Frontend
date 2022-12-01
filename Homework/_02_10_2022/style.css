@@ -1,0 +1,30 @@
+body{
+    background-color: aqua;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: blue;
+}
+.par{
+    font-size: 25px;
+    color: rgb(12, 11, 13);
+    padding-top: 80px;
+}
+.firstdiv{
+    display: inline-block;
+    border: 1px solid blue;
+    border-radius: 7px;
+}
+.group{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+span{
+    display: flex;
+}
+p{
+    font-size: 25px;
+    color: rgb(12, 11, 13);
+}

@@ -1,0 +1,26 @@
+.container{
+    padding: 20px;
+   
+    display: inline-block;
+}
+
+.child{
+    border: 1px solid red;
+    height: 100px;
+    width: 100px;
+    
+}
+
+.child1{
+    border: 1px solid greenyellow;
+    height: 100px;
+    width: 100px;
+   
+}
+
+.child2{
+    border: 1px solid blue;
+    height: 100px;
+    width: 100px;
+   
+}
